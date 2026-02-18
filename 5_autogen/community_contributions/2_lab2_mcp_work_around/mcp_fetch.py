@@ -13,7 +13,7 @@ async def main():
     agent = AssistantAgent(name="fetcher", model_client=model_client, tools=fetcher, reflect_on_tool_use=True)
 
     # Use the tool
-    result = await agent.run(task="Review edwarddonner.com and summarize what you learn. Reply in Markdown.")
+    result = await agent.run(task="Review thomas.com and summarize what you learn. Reply in Markdown.")
     print(result.messages[-1].content)
 
 if __name__ == "__main__":

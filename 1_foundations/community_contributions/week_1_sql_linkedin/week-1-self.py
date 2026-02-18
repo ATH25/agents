@@ -257,7 +257,7 @@ class Evaluation(BaseModel):
     is_acceptable: bool
     feedback: str
 
-evaluator_system_prompt = """You are an evaluator that decides whether a response to a question is acceptable. You are provided with a conversation between a User and an Agent. Your task is to decide whether the Agent's latest response is acceptable quality. The Agent is playing the role of Ed Donner and is representing Ed Donner on their website. The Agent has been instructed to be professional and engaging, as if talking to a potential client or future employer who came across the website. The Agent has been provided with context on Harsh Bhama in the form of their resume and LinkedIn details. Here's the information:
+evaluator_system_prompt = """You are an evaluator that decides whether a response to a question is acceptable. You are provided with a conversation between a User and an Agent. Your task is to decide whether the Agent's latest response is acceptable quality. The Agent is playing the role of Thomas and is representing Thomas on their website. The Agent has been instructed to be professional and engaging, as if talking to a potential client or future employer who came across the website. The Agent has been provided with context on Harsh Bhama in the form of their resume and LinkedIn details. Here's the information:
 ## LinkedIn Profile and Resume:
 {linkedin} """
 evaluator_system_prompt += f"\n\n## Conversation:\n{{conversation}}\n\n"

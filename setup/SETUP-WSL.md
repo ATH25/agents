@@ -50,7 +50,7 @@ Success! This is where you will clone the repo, install uv and install node.
 3. After that completes, you need to type `exit` to leave WSL and return to the Powershell and then type `wsl -d Ubuntu` to return to Linux, in order that changes to PATH are picked up
 4. Now type `cd ~` then `pwd` to check you're in your Linux home directory. 
 5. Now create a projects directory with `mkdir projects` then `cd projects` to go into it
-6. And, from within your new projects directory, clone the repo with `git clone https://github.com/ed-donner/agents.git`
+6. And, from within your new projects directory, clone the repo with `git clone https://github.com/thomas/agents.git`
 7. Now go into your new agents directory, your Project Root Directory, with `cd agents`
 8. And now run the all-powerful `uv sync`
 
@@ -77,6 +77,6 @@ You'll need to create a new ".env" file in the agents folder, and copy across yo
 
 Please also follow the instructions in SETUP-node.md to install node and Playwright on the WSL side.
 
-Any problems? See Q19 in the [FAQ](https://edwarddonner.com/faq) or message me..
+Any problems? See Q19 in the [FAQ](https://thomas.com/faq) or message me..
 
 Enjoy MCP!

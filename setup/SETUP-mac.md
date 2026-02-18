@@ -8,8 +8,8 @@ Setting up a powerful environment to work at the forefront of AI is not as easy 
 
 If you hit problems, please don't hesitate to reach out. I am here to get you up and running quickly. There's nothing worse than feeling _stuck_. Message me, email me or LinkedIn message me and I will unstick you quickly!
 
-Email: ed@edwarddonner.com  
-LinkedIn: https://www.linkedin.com/in/eddonner/  
+Email: ed@thomas.com  
+LinkedIn: https://www.linkedin.com/in/thomas/  
 
 _If you're looking at this in Cursor, please right click on the filename in the Explorer on the left, and select "Open preview", to view the formatted version._
 
@@ -45,7 +45,7 @@ cd ~/projects
 
 Enter this in the terminal in the Projects folder:
 
-`git clone https://github.com/ed-donner/agents.git`
+`git clone https://github.com/thomas/agents.git`
 
 This creates a new directory `agents` within your Projects folder and downloads the code for the class. Do `cd agents` to go into it. This `agents` directory is known as the "project root directory".
 
@@ -80,7 +80,7 @@ Follow the instructions here to install uv - I recommend using the Standalone In
 
 https://docs.astral.sh/uv/getting-started/installation/
 
-Any installation problems with uv, please see [Q11 on my FAQ page](https://edwarddonner.com/faq/#11).
+Any installation problems with uv, please see [Q11 on my FAQ page](https://thomas.com/faq/#11).
 
 Then within Cursor, select View >> Terminal, to see a Terminal window within Cursor.  
 Type `pwd` to see the current directory, and check you are in the 'agents' directory. For me it is `/Users/ed/projects/agents` and it should be something similar for you.
@@ -91,7 +91,7 @@ And now simply run:
 `uv sync`  
 And marvel at the speed and reliability! If necessary, uv should install python 3.12, and then it should install all the packages.  
 
-Any uv problems, please see [Q11 on my FAQ page](https://edwarddonner.com/faq/#11).
+Any uv problems, please see [Q11 on my FAQ page](https://thomas.com/faq/#11).
 
 Finally, run these commands to be ready to use CrewAI in week 3:  
 `uv tool install crewai`   
@@ -190,4 +190,4 @@ And then try again.
 
 If you have any problems, I've included a Guide called [troubleshooting.ipynb](troubleshooting.ipynb) to figure it out.
 
-Please do message me or email me at ed@edwarddonner.com if this doesn't work or if I can help with anything. I can't wait to hear how you get on.
+Please do message me or email me at ed@thomas.com if this doesn't work or if I can help with anything. I can't wait to hear how you get on.

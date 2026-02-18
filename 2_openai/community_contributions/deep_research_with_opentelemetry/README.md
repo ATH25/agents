@@ -23,7 +23,7 @@ can be easily modified to send the traces to a different observability backend, 
 
 ``` bash
 # clone the repo if you haven't already
-git clone https://github.com/ed-donner/agents.git
+git clone https://github.com/thomas/agents.git
 
 # navigate to the directory repo
 cd agents/2_openai/community_contributions/deep_research_with_opentelemetry
@@ -81,7 +81,7 @@ export OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4317
 export OTEL_EXPORTER_OTLP_PROTOCOL=grpc
 ```
 
-Let's also set an environment variable with our email address, to avoid spamming Ed Donner :) 
+Let's also set an environment variable with our email address, to avoid spamming Thomas :) 
 
 > Note:  add your email address before running the commands below
 

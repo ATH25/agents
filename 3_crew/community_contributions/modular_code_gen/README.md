@@ -4,7 +4,7 @@ Welcome to the ModularCodeGen Crew project, powered by [crewAI](https://crewai.c
 
 #  CrewAI – Modular Engineering Team (Agentic Version)
 
-This project is an **agentic and modular transformation** of the original [engineering_team project](https://github.com/ed-donner/agents/tree/main/3_crew/engineering_team).  
+This project is an **agentic and modular transformation** of the original [engineering_team project](https://github.com/thomas/agents/tree/main/3_crew/engineering_team).  
 Unlike the original monolithic implementation, this version introduces **fully separated backend modules**, each with its own **unit tests** and **automated frontend integration**, built using an orchestrated multi-agent workflow defined in `tasks.yaml`.
 
 ---

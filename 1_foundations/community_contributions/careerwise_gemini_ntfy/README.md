@@ -66,7 +66,7 @@ Get the API running locally in minutes!
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/ed-donner/agents.git
+git clone https://github.com/thomas/agents.git
 cd agents/1_foundations/community_contributions/careerwise_gemini_notify
 ```
 

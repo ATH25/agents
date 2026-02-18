@@ -1,69 +1,27 @@
-## Master AI Agentic Engineering -  build autonomous AI Agents
+# Master AI Agentic Engineering - build autonomous AI Agents
 
 ### 6 week journey to code and deploy AI Agents with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP
 
-![Autonomous Agent](assets/autonomy.png)
+Welcome to the start of your 6 week adventure into the powerful, astonishing and often surreal world of Agentic AI. This project contains the materials and labs for the course.
 
-_If you're looking at this in Cursor, please right click on the filename in the Explorer on the left, and select "Open preview", to view the formatted version._
+### Course Outline
 
-I couldn't be more excited to welcome you! This is the start of your 6 week adventure into the powerful, astonishing and often surreal world of Agentic AI.
+- **Week 1: Foundations** - Introduction to AI Agents and core concepts.
+- **Week 2: OpenAI** - Building agents with the OpenAI SDK.
+- **Week 3: CrewAI** - Multi-agent orchestration.
+- **Week 4: LangGraph** - Building stateful, multi-agent applications.
+- **Week 5: AutoGen** - Programming agentic workflows.
+- **Week 6: MCP (Model Context Protocol)** - Extending agent capabilities.
 
-### Before you begin
+### Getting Started
 
-I'm here to help you be most successful! Please do reach out if I can help, either in the platform or by emailing me direct (ed@edwarddonner.com). It's always great to connect with people on LinkedIn to build up the community - you'll find me here:  
-https://www.linkedin.com/in/eddonner/  
-And this is new to me, but I'm also trying out X/Twitter at [@edwarddonner](https://x.com/edwarddonner) - if you're on X, please show me how it's done 😂  
+Detailed setup instructions for various operating systems can be found in the `setup/` directory.
 
-### The not-so-dreaded setup instructions
+### Project Structure
 
-Perhaps famous last words: but I really, truly hope that I've put together an environment that will be not too horrific to set up!
-
-- Windows people, your instructions are [here](setup/SETUP-PC.md)
-- Mac people, yours are [here](setup/SETUP-mac.md)
-- Linux people, yours are [here](setup/SETUP-linux.md)
-
-Any problems, please do contact me.
-
-### Important notes for CrewAI week (Week 3)
-
-Windows PC users: you will need to have checked the "gotcha #4" at the top of the [SETUP-PC](setup/SETUP-PC.md) instructions -- installing Microsoft Build Tools.  
-If you don't do this, then CrewAI will fail with an obscure error involving Chroma..
+- `1_foundations/` to `6_mcp/`: Weekly course content and labs.
+- `guides/`: Essential guides and notebooks.
+- `assets/`: Images and other static assets.
+- `setup/`: Installation and troubleshooting guides.
 
 
-Then, you will need to run this command in a Cursor Terminal in the project root directory in order to run the Crew commands:  
-`uv tool install crewai==0.130.0 --python 3.12`   
-And in case you've used Crew before, it might be worth doing this to make sure you have the latest:  
-`uv tool upgrade crewai==0.130.0 --python 3.12`  
-
-This command pins Crew to the same version that I use on the course. If you have any problems with Crew, you could try using the latest version instead, by running this command:  
-`uv tool upgrade crewai --python 3.12`  
-
-At any point, you can see which version of Crew you have installed with this:  
-`uv tool list`
-
-Sidenote: a "tool" with uv is a utility that is installed globally by uv. After installing this tool, you can use "crewai" as a command, and it runs the code associated with this tool.
-
-Then please keep in mind for Crew:
-
-1. There are two ways that you can work on the CrewAI project in week 3. Either review the code for each project while I build it, and then do `crewai run` to see it in action. Or if you prefer to be more hands-on, then create your own Crew project from scratch to mirror mine; for example, create `my_debate` to go alongside `debate`, and write the code alongside me. Either approach works!  
-2. Windows users: there's a new issue that was recently introduced by one of Crew's libraries. Until this is fixed, you might get a "unicode" error when you try to run `crewai create crew`.  If that happens, please try running this command in the Terminal first: `$env:PYTHONUTF8 = "1"`  
-3. Gemini users: in addition to a key in your `.env` file for `GOOGLE_API_KEY`, you will need an identical key for `GEMINI_API_KEY`
-
-### Super useful resources
-
-- The course [resources](https://edwarddonner.com/2025/04/21/the-complete-agentic-ai-engineering-course/) with videos
-- Many essential guides in the [guides](guides/01_intro.ipynb) section
-- The [troubleshooting](setup/troubleshooting.ipynb) notebook  
-- My overall [FAQ](https://edwarddonner.com/faq) page with common issues and questions
-
-### API costs - please read me!
-
-This course does involve making calls to OpenAI and other frontier models, requiring an API key and a small spend, which we set up in the SETUP instructions. If you'd prefer not to spend on API calls, there are cheaper alternatives like DeepSeek and free alternatives like using Ollama!
-
-Details are [here](guides/09_ai_apis_and_ollama.ipynb).
-
-Be sure to monitor your API costs to ensure you are totally happy with any spend. For OpenAI, the dashboard is [here](https://platform.openai.com/usage).
-
-### ABOVE ALL ELSE -
-
-Be sure to have fun with the course! You could not have picked a better time to be learning about Agentic AI. I hope you enjoy every single minute! And if you get stuck at any point - [contact me](https://www.linkedin.com/in/eddonner/).
