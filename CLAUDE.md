@@ -4,6 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 <!-- SSH push from Claude Code verified working on 2026-03-16 -->
 
+## Permissions
+
+Always ask the user for explicit permission before editing or writing any file outside of `/Users/ajuthomas/DEV/projects/AI_Agents/agents/`.
+
 ## Package Management
 
 This project uses `uv` (not pip) for dependency management:
