@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # src/financial_researcher/main.py
+from datetime import datetime
 import os
 from financial_researcher.crew import ResearchCrew
 
@@ -11,7 +12,8 @@ def run():
     Run the research crew.
     """
     inputs = {
-        'company': 'Apple'
+        'company': 'Apple',
+        'current_year': str(datetime.now().year)
     }
 
     # Create and run the crew

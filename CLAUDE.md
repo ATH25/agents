@@ -116,6 +116,6 @@ The `.env` file at the repo root is loaded by most notebooks/scripts via `python
 
 ## MCP Server Preference
 
-- Prefer MCP server `pycharm_2025` when available (PyCharm 2025.3.3).
-- Fall back to `pycharm_2026` only when `pycharm_2025` is unavailable.
-- If `pycharm_2026` shows no tools, ignore it when running PyCharm 2025.3.3.
+- Support both **PyCharm 2025.3.3** (`pycharm_2025`) and **PyCharm 2026.1** (`pycharm_2026`).
+- Use the MCP server that matches the active IDE version.
+- If multiple servers are available, default to the one that currently provides tools.

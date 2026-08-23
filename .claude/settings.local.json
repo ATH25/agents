@@ -1,5 +1,13 @@
 {
   "permissions": {
+    "allow": [
+      "Bash(cp /Users/ajuthomas/DEV/projects/AI_Agents/agents/.python-version /Users/ajuthomas/DEV/projects/AI_Agents/agents-dev/.python-version)",
+      "Bash(cp /Users/ajuthomas/DEV/projects/AI_Agents/agents/.gitattributes /Users/ajuthomas/DEV/projects/AI_Agents/agents-dev/.gitattributes)",
+      "Bash(cp /Users/ajuthomas/DEV/projects/AI_Agents/agents/LICENSE /Users/ajuthomas/DEV/projects/AI_Agents/agents-dev/LICENSE)",
+      "Bash(cp /Users/ajuthomas/DEV/projects/AI_Agents/agents/uv.lock /Users/ajuthomas/DEV/projects/AI_Agents/agents-dev/uv.lock)",
+      "Bash(cp /Users/ajuthomas/DEV/projects/AI_Agents/agents/requirements.txt /Users/ajuthomas/DEV/projects/AI_Agents/agents-dev/requirements.txt)",
+      "Bash(chmod +x /Users/ajuthomas/DEV/projects/AI_Agents/agents-dev/.claude/hooks/check_bash_paths.sh)"
+    ],
     "deny": [
       "Read(/Users/ajuthomas/!(DEV/projects/AI_Agents/agents/**|.claude/**))",
       "Edit(/Users/ajuthomas/!(DEV/projects/AI_Agents/agents/**|.claude/**))",

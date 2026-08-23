@@ -1,7 +1,7 @@
 # src/research_crew/config/tasks.yaml
 research_task:
   description: >
-    Conduct thorough research on company {company}. Focus on:
+    Conduct thorough research on company {company} as of {current_year}. Focus on:
     1. Current company status and health
     2. Historical company performance
     3. Major challenges and opportunities

@@ -18,6 +18,9 @@ Next, navigate to your project directory and install the dependencies:
 ```bash
 crewai install
 ```
+
+### Run
+crewai create crew debate
 ### Customizing
 
 **Add your `OPENAI_API_KEY` into the `.env` file**
